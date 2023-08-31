@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#1d1d1d;
+    color: #fff;
+}
+
+.app-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #d8f32a;
+}
+.app-subtitle {
+    font-size: 22px;
+    text-align: center;
+}
+.card {
+    width: 400px;
+    margin: 20px;
+    border: 4px solid #fff;
+    box-shadow: 4px 4px 6px#d8f32a;
+}
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+.card-desc {
+    padding: 10px;
+}
+.card-desc ul {
+    list-style: none;
+    padding-left: 10px;
+}
+.card-desc ul li {
+    margin: 10px 0;
+}
